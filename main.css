@@ -1,0 +1,52 @@
+/* CSS Start Here */
+
+/* tag ['xxx'] || class ['.xxx'] || id ['#xxx'] */
+
+html,
+body {
+    width: 100%;
+    height: inherit;
+    display: block;
+    position: relative;
+}
+
+body {
+    overflow: hidden;
+    display: block;
+    background: #454545;
+    color: #fff;
+}
+
+.heart {
+    width: 40%;
+    height: auto;
+    display: flex;
+    padding-top: 40%;
+    margin: auto;
+    opacity: 0;
+}
+
+.heart {
+    animation-name: heartbeat;
+    animation-duration: 2000ms;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.btn-heart {
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    background: #009d76;
+    color: #0f2d1e;
+}
+
+.btn-heart:hover {
+    background: #00785a;
+    color: #43be81;
+    border: solid 2px rgb(0, 175, 228);
+}
